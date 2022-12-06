@@ -3,7 +3,7 @@
 # mysqldump -h172.18.46.93 -uzje zjy_volunteer_police 表名> 导出的文件名
 
 # 设置环境变量，就不需要在命令中传入密码，屏蔽一个 warning（命令行中包含密码警告）
-export MYSQL_PWD=zjEYjCjRds21
+export MYSQL_PWD=xxxxx
 
 # 导出的 sql 存放地址
 path=$(pwd)/sql.d
